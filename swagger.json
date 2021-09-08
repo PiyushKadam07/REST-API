@@ -1,0 +1,117 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "User Registration & login",
+        "description": "API description in Markdown.",
+        "version": "1.0.0",
+        "host": "localhost:3000",
+        "schemes": "http"
+    },
+    "paths": {
+        "/users/register": {
+            "post": {
+                "tags": ["User"],
+                "summary": "Register  user.",
+                "parameters": [
+                {
+                    "in": "body",
+                    "name": "Register Data",
+                    "required": true,
+                    "schema": {
+                        "type": "object",
+                        "required": ["firstName", "lastName", "email", "password"],
+                        "properties": {
+                            "firstName": {
+                                "type": "string"
+                            },
+                            "lastName": {
+                                "type": "string"
+                            },
+                            "email": {
+                                "type": "string"
+                            },
+                            "password": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+                ],
+                "description": "Register a user.",
+                "produces": "application/json",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/users/login": {
+            "post": {
+                "tags": ["User"],
+                "summary": "Login user.",
+                "parameters": [
+                {
+                    "in": "body",
+                    "name": "Login Data",
+                    "required": true,
+                    "schema": {
+                        "type": "object",
+                        "required": ["email", "password"],
+                        "properties": {
+                            "email": {
+                                "type": "string"
+                            },
+                            "password": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+                ],
+                "description": "User login.",
+                "produces": "application/json",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/notes": {
+            "post": {
+                "tags": ["Notes"],
+                "summary": "Notes.",
+                "parameters": [
+                {
+                    "in": "body",
+                    "name": "Notes Data",
+                    "required": true,
+                    "schema": {
+                        "type": "object",
+                        "required": ["title", "description", "color"],
+                        "properties": {
+                            "title": {
+                                "type": "string"
+                            },
+                            "description": {
+                                "type": "string"
+                            },
+                            "color": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+                ],
+                "description": "Notes.",
+                "produces": "application/json",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        } 
+    }
+}

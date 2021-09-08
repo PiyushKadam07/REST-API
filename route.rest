@@ -1,0 +1,54 @@
+GET http://localhost:3000/users/allusers
+
+###
+GET http://localhost:3000/users/user_detail/61373af1358fd8e3e732934b
+
+###
+POST http://localhost:3000/users/register
+Content-Type: application/json
+
+{
+    "firstName" : "Piyush",
+    "lastName" : "Kadam",
+    "email" : "pk@123mail.com",
+    "password" : "12345"
+}
+
+###
+DELETE http://localhost:3000/users/delete/61373af1358fd8e3e732934b
+
+###
+PATCH http://localhost:3000/users/update/613605f993c6f41dc6a2b90a
+Content-Type: application/json
+
+{
+    "firstName" : "Piyush",
+    "lastName" : "Kadam",
+    "email" : "pk@123mail.com",
+    "password" : 12345
+}
+
+###
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+{
+    "email" : "ak@123mail.com",
+    "password" : 45678
+}
+
+###
+GET http://localhost:3000/notes/allnotes
+
+###
+GET http://localhost:3000/notes/6137a9d85692eb7deb83a1c2
+
+###
+POST http://localhost:3000/notes
+Content-Type: application/json
+
+{
+    "title" : "Title - 3",
+    "description" : "Desciption - 3",
+    "color" : "#c1429b"
+}

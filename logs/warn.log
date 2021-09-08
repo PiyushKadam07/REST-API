@@ -1,0 +1,41 @@
+2021-09-07T10:13:52.967Z [Hello user!] error: Cannot read property 'remove' of null
+2021-09-07T10:36:29.517Z [Hello user!] error: Email already exists
+2021-09-07T10:37:33.024Z [Hello user!] error: Email already exists
+2021-09-07T10:39:44.042Z [Hello user!] error: Email already exists
+2021-09-07T10:46:15.339Z [Hello user!] error: User already registered
+2021-09-07T10:46:30.333Z [Hello user!] error: User already registered
+2021-09-07T10:46:40.017Z [Hello user!] error: User already registered
+2021-09-07T10:47:56.309Z [Hello user!] error: User already registered
+2021-09-07T10:49:19.780Z [Hello user!] error: User already registered
+2021-09-07T10:49:22.338Z [Hello user!] error: User already registered
+2021-09-07T10:50:36.586Z [Hello user!] error: User already registered
+2021-09-07T10:52:46.332Z [Hello user!] error: User already registered
+2021-09-07T11:07:35.141Z [Hello user!] error: User already registered
+2021-09-07T11:08:33.478Z [Hello user!] error: User already registered
+2021-09-07T11:17:25.821Z [Hello user!] error: User already registered
+2021-09-07T11:18:27.119Z [Hello user!] error: User already registered
+2021-09-07T11:49:28.760Z [Hello user!] error: User already registered
+2021-09-07T11:50:35.038Z [Hello user!] error: User already registered
+2021-09-07T11:52:06.212Z [Hello user!] error: User already registered
+2021-09-07T11:53:10.520Z [Hello user!] error: User already registered
+2021-09-07T12:53:57.613Z [Hello user!] error: User already registered
+2021-09-07T13:16:48.602Z [Hello user!] error: err is not defined
+2021-09-07T13:18:03.640Z [Hello user!] error: User already registered
+2021-09-07T13:18:13.627Z [Hello user!] error: User already registered
+2021-09-07T13:18:24.532Z [Hello user!] error: User already registered
+2021-09-07T13:18:25.411Z [Hello user!] error: User already registered
+2021-09-07T13:18:25.745Z [Hello user!] error: User already registered
+2021-09-07T13:18:34.756Z [Hello user!] error: User already registered
+2021-09-07T13:19:49.335Z [Hello user!] error: User already registered
+2021-09-07T13:27:09.679Z [Hello user!] error: User already registered
+2021-09-07T13:27:16.068Z [Hello user!] error: First name cannot be blank
+2021-09-07T13:34:09.377Z [Hello user!] error: User already registered
+2021-09-07T13:34:16.780Z [Hello user!] error: Last name cannot be blank
+2021-09-07T13:34:29.116Z [Hello user!] error: Invalid password
+2021-09-07T13:34:53.067Z [Hello user!] error: User already registered
+2021-09-07T16:41:08.026Z [Hello user!] error: User already registered
+2021-09-07T16:47:48.090Z [Hello user!] error: Invalid user. Access not allowed
+2021-09-07T16:49:18.972Z [Hello user!] error: Invalid user. Access not allowed
+2021-09-07T16:49:27.083Z [Hello user!] error: Invalid user. Access not allowed
+2021-09-07T19:23:13.571Z [Hello user!] error: User already registered
+2021-09-07T19:25:13.093Z [Hello user!] error: User already registered
