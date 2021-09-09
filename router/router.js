@@ -19,7 +19,7 @@ router.get('/user_detail/:id', controller.specificuser);
 // delete user details
 router.delete('/delete/:id', controller.deleteuser);
 
-// update person details
+// update user details
 router.patch('/update/:id', controller.updateuser);
 
 module.exports = router;

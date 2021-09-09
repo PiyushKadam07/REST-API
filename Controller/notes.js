@@ -61,6 +61,60 @@ class notes {
         }
     }
 
+     // update note
+     async updatenote (req, res) {
+        let note = await Notes.findById(req.params.id)
+        if ( req.body.title != null ) {
+            note.title = req.body.title  
+        }
+        if ( req.body.description != null ) {
+            note.description = req.body.description  
+        }
+        if ( req.body.color != null ) {
+            note.color = req.body.color  
+        }
+        try {
+            const updatednote = await note.save();
+            res.status(201).json({ message: 'Note updated' });
+            log.info('Note updated');
+        } catch (err) {
+            log.error(err)
+            return res.status(400).json({ message: err.message })
+        }
+    }
+
+    // delete note
+    async deletenote (req, res) {
+        let note = await Notes.findById(req.params.id)
+        if ( note.isDeleted == false ) {
+            note.isDeleted = true
+            try {
+                const updatednote = await note.save();
+                res.status(201).json(updatednote);
+                log.info('Note deleted');
+            } catch (err) {
+                log.error(err)
+                return res.status(400).json({ message: err.message })
+            }
+        }
+    }
+
+    // archive note
+    async archivenote (req, res) {
+        let note = await Notes.findById(req.params.id)
+        if ( note.isArchived == false ) {
+            note.isArchived = true
+            try {
+                const updatednote = await note.save();
+                res.status(201).json(updatednote);
+                log.info('Note archived');
+            } catch (err) {
+                log.error(err)
+                return res.status(400).json({ message: err.message })
+            }
+        }
+    }
+
 }
 
 module.exports = new notes();

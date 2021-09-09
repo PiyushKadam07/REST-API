@@ -129,9 +129,10 @@ class Registration {
         }
         try {
             const updateduser = await detail.save();
-            res.status(201).json(updateduser);
+            res.status(201).json({ message: 'User details updated' });
             log.info('User details updated');
         } catch (err) {
+            log.error(err);
             return res.status(400).json({ message: err.message })
         }
     }

@@ -15,16 +15,16 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3000/users/delete/61373af1358fd8e3e732934b
+DELETE http://localhost:3000/users/delete/613610e8e5c56d7042e26668
 
 ###
-PATCH http://localhost:3000/users/update/613605f993c6f41dc6a2b90a
+PATCH http://localhost:3000/users/update/6137bcc44b4633d2074170af
 Content-Type: application/json
 
 {
-    "firstName" : "Piyush",
-    "lastName" : "Kadam",
-    "email" : "pk@123mail.com",
+    # "firstName" : "Piyush",
+    # "lastName" : "Kadam",
+    # "email" : "pk@123mail.com",
     "password" : 12345
 }
 
@@ -52,3 +52,29 @@ Content-Type: application/json
     "description" : "Desciption - 3",
     "color" : "#c1429b"
 }
+
+###
+PATCH http://localhost:3000/notes/update/613827e2ce3b51fde8105c6f
+Content-Type: application/json
+
+{
+    "title" : "Title - 4",
+    "description" : "Description - 4",
+    "color" : "#ffffff"
+}
+
+###
+PATCH http://localhost:3000/notes/delete/613827e2ce3b51fde8105c6f
+# Content-Type: application/json
+
+# {
+#     "isDeleted" : true
+# }
+
+###
+PATCH http://localhost:3000/notes/archive/613827e2ce3b51fde8105c6f
+# Content-Type: application/json
+
+# {
+#     "isArchived" : true
+# }

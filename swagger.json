@@ -15,7 +15,7 @@
                 "parameters": [
                 {
                     "in": "body",
-                    "name": "Register Data",
+                    "name": "User Data",
                     "required": true,
                     "schema": {
                         "type": "object",
@@ -38,6 +38,44 @@
                 }
                 ],
                 "description": "Register a user.",
+                "produces": "application/json",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/users/allusers": {
+            "get": {
+                "tags": ["User"],
+                "summary": "All  users.",
+                "parameters": [
+                {
+                    "in": "status",
+                    "name": "All users Data",
+                    "schema": {
+                        "type": "object",
+                        "required": true,
+                        "properties": {
+                            "firstName": {
+                                "type": "string"
+                            },
+                            "lastName": {
+                                "type": "string"
+                            },
+                            "email": {
+                                "type": "string"
+                            },
+                            "password": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                   
+                }
+                ],
+                "description": "Show all users.",
                 "produces": "application/json",
                 "responses": {
                     "200": {
@@ -78,6 +116,29 @@
                 }
             }
         },
+        "/users/delete/{_id}": {
+            "delete": {
+                "tags": ["User"],
+                "summary": "Delete user.",
+                "produces": "application/json",
+                "parameters": [
+                {
+                    "in": "path",
+                    "name": "_id",
+                    "required": true,
+                    "type": "string",
+                    "example": "61376a84565f96b91710b18a",
+                    "value": "61376a84565f96b91710b18a"
+                }
+                ],
+                "description": "Delete user.",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }, 
         "/notes": {
             "post": {
                 "tags": ["Notes"],
@@ -90,6 +151,83 @@
                     "schema": {
                         "type": "object",
                         "required": ["title", "description", "color"],
+                        "properties": {
+                            "title": {
+                                "type": "string"
+                            },
+                            "description": {
+                                "type": "string"
+                            },
+                            "color": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+                ],
+                "description": "Notes.",
+                "produces": "application/json",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/notes/allnotes": {
+            "get": {
+                "tags": ["Notes"],
+                "summary": "Notes.",
+                "parameters": [
+                {
+                    "in": "status",
+                    "name": "All notes.",
+                    "schema": {
+                        "type": "object",
+                        "required": true,
+                        "properties": {
+                            "title": {
+                                "type": "string"
+                            },
+                            "description": {
+                                "type": "string"
+                            },
+                            "color": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                   
+                }
+                ],
+                "description": "Show all notes.",
+                "produces": "application/json",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/notes/update/{_id}": {
+            "patch": {
+                "tags": ["Notes"],
+                "summary": "Notes.",
+                "required": true,
+                "parameters": [
+                {
+                    "in": "path",
+                    "name": "_id",
+                    "required": true,
+                    "type": "string",
+                    "value": "613827e2ce3b51fde8105c6f"
+                },
+                {
+                    "in": "body",
+                    "name": "Update Note",
+                    "required": true,
+                    "schema": {
+                        "type": "object",
                         "properties": {
                             "title": {
                                 "type": "string"

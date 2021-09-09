@@ -2,14 +2,15 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const body_parser = require('body-parser');
+const config = require('./config/config');
 
 app.use(express.json());
 
+//routes middleware
 const router = require('./router/router');
-const notes = require('./router/notes');
-
-//routes
 app.use("/users", router);
+
+const notes = require('./router/notes');
 app.use("/notes", notes);
 
 //swagger
@@ -22,7 +23,7 @@ app.listen("3000", (err) => {
     console.log("App is at port 3000");
 })
 
-mongoose.connect("mongodb://localhost:27017/Persondetails", (err) => {
+mongoose.connect(config.mongoUrl, (err) => {
     if (err) {
         console.log("DB not connected");
     }
