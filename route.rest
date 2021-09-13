@@ -1,7 +1,9 @@
 GET http://localhost:3000/users/allusers
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBrQDEyM21haWwuY29tIiwicGFzc3dvcmQiOjEyMzQ1LCJpYXQiOjE2MzE1MDY4NjksImV4cCI6MTYzMTUxNDA2OX0.Q_ze4bufc9TOvPb0mTx8htMzXSc2TBFlVKIUjwxPM8E
 
 ###
 GET http://localhost:3000/users/user_detail/61373af1358fd8e3e732934b
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBrQDEyM21haWwuY29tIiwicGFzc3dvcmQiOjEyMzQ1LCJpYXQiOjE2MzE1MDY4NjksImV4cCI6MTYzMTUxNDA2OX0.Q_ze4bufc9TOvPb0mTx8htMzXSc2TBFlVKIUjwxPM8E
 
 ###
 POST http://localhost:3000/users/register
@@ -16,9 +18,12 @@ Content-Type: application/json
 
 ###
 DELETE http://localhost:3000/users/delete/613610e8e5c56d7042e26668
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBrQDEyM21haWwuY29tIiwicGFzc3dvcmQiOjEyMzQ1LCJpYXQiOjE2MzE1MDY4NjksImV4cCI6MTYzMTUxNDA2OX0.Q_ze4bufc9TOvPb0mTx8htMzXSc2TBFlVKIUjwxPM8E
 
 ###
 PATCH http://localhost:3000/users/update/6137bcc44b4633d2074170af
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBrQDEyM21haWwuY29tIiwicGFzc3dvcmQiOjEyMzQ1LCJpYXQiOjE2MzE1MDY4NjksImV4cCI6MTYzMTUxNDA2OX0.Q_ze4bufc9TOvPb0mTx8htMzXSc2TBFlVKIUjwxPM8E
+
 Content-Type: application/json
 
 {
@@ -33,18 +38,22 @@ POST http://localhost:3000/users/login
 Content-Type: application/json
 
 {
-    "email" : "ak@123mail.com",
-    "password" : 45678
+    "email" : "pk@123mail.com",
+    "password" : 12345
 }
 
 ###
 GET http://localhost:3000/notes/allnotes
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBrQDEyM21haWwuY29tIiwicGFzc3dvcmQiOjEyMzQ1LCJpYXQiOjE2MzE1MDY4NjksImV4cCI6MTYzMTUxNDA2OX0.Q_ze4bufc9TOvPb0mTx8htMzXSc2TBFlVKIUjwxPM8E
 
 ###
 GET http://localhost:3000/notes/6137a9d85692eb7deb83a1c2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBrQDEyM21haWwuY29tIiwicGFzc3dvcmQiOjEyMzQ1LCJpYXQiOjE2MzE1MDY4NjksImV4cCI6MTYzMTUxNDA2OX0.Q_ze4bufc9TOvPb0mTx8htMzXSc2TBFlVKIUjwxPM8E
 
 ###
 POST http://localhost:3000/notes
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBrQDEyM21haWwuY29tIiwicGFzc3dvcmQiOjEyMzQ1LCJpYXQiOjE2MzE1MDY4NjksImV4cCI6MTYzMTUxNDA2OX0.Q_ze4bufc9TOvPb0mTx8htMzXSc2TBFlVKIUjwxPM8E
+
 Content-Type: application/json
 
 {
@@ -55,6 +64,8 @@ Content-Type: application/json
 
 ###
 PATCH http://localhost:3000/notes/update/613827e2ce3b51fde8105c6f
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBrQDEyM21haWwuY29tIiwicGFzc3dvcmQiOjEyMzQ1LCJpYXQiOjE2MzE1MDY4NjksImV4cCI6MTYzMTUxNDA2OX0.Q_ze4bufc9TOvPb0mTx8htMzXSc2TBFlVKIUjwxPM8E
+
 Content-Type: application/json
 
 {
@@ -65,6 +76,8 @@ Content-Type: application/json
 
 ###
 PATCH http://localhost:3000/notes/delete/613827e2ce3b51fde8105c6f
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBrQDEyM21haWwuY29tIiwicGFzc3dvcmQiOjEyMzQ1LCJpYXQiOjE2MzE1MDY4NjksImV4cCI6MTYzMTUxNDA2OX0.Q_ze4bufc9TOvPb0mTx8htMzXSc2TBFlVKIUjwxPM8E
+
 # Content-Type: application/json
 
 # {
@@ -73,6 +86,8 @@ PATCH http://localhost:3000/notes/delete/613827e2ce3b51fde8105c6f
 
 ###
 PATCH http://localhost:3000/notes/archive/613827e2ce3b51fde8105c6f
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBrQDEyM21haWwuY29tIiwicGFzc3dvcmQiOjEyMzQ1LCJpYXQiOjE2MzE1MDY4NjksImV4cCI6MTYzMTUxNDA2OX0.Q_ze4bufc9TOvPb0mTx8htMzXSc2TBFlVKIUjwxPM8E
+
 # Content-Type: application/json
 
 # {

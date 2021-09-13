@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const controller = require('../Controller/userController');
+const token = require('../utils/authorization');
 
 console.log("Inside users router");
 
@@ -8,18 +9,18 @@ console.log("Inside users router");
 router.post("/register", controller.registeruser);
 
 // get all user details
-router.get("/allusers", controller.displayusers);
+router.get("/allusers", token.authenticateToken, controller.displayusers);
 
 // create login user details
-router.post("/login", controller.loginuser);
+router.post("/login", token.createToken, controller.loginuser);
 
 //display specific user
-router.get('/user_detail/:id', controller.specificuser);
+router.get('/user_detail/:id', token.authenticateToken, controller.specificuser);
 
 // delete user details
-router.delete('/delete/:id', controller.deleteuser);
+router.delete('/delete/:id', token.authenticateToken, controller.deleteuser);
 
 // update user details
-router.patch('/update/:id', controller.updateuser);
+router.patch('/update/:id', token.authenticateToken, controller.updateuser);
 
 module.exports = router;
