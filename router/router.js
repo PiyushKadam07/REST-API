@@ -23,4 +23,10 @@ router.delete('/delete/:id', token.authenticateToken, controller.deleteuser);
 // update user details
 router.patch('/update/:id', token.authenticateToken, controller.updateuser);
 
+// forget password
+router.post('/forget/:id', controller.forgetPassword);
+
+// reset password
+router.patch('/reset/:id', controller.resetPassword);
+
 module.exports = router;

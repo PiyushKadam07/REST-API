@@ -1,7 +1,12 @@
-const express = require('express');
 const Details = require('../app/model/model');
 const log = require('../logs/logger');
 const Auth = require('../app/model/authentication');
+const token = require('../utils/authorization');
+const userService = require('../services/userService');
+// var windowVar = /*...*/;
+
+const bcrypt = require('bcrypt');
+const saltRounds = 10;
 
 class Registration {
     
@@ -57,7 +62,8 @@ class Registration {
                     res.status(400).json({ message: err });
                 }
                 else {
-                    const user = new Details(req.body);
+                    const hash = bcrypt.hashSync( req.body.password, saltRounds );
+                    const user = new Details({ ...req.body, password: hash });
                     user.save().then((data) => {
                         log.info('New user registered')
                         return res.json(data);
@@ -114,18 +120,18 @@ class Registration {
 
     // update user details
     async updateuser (req, res) {
-        let detail = await Details.findById(req.params.id)
+        let detail = await Details.findById( req.params.id );
         if ( req.body.firstName != null ) {
-            detail.firstName = req.body.firstName  
+            detail.firstName = req.body.firstName;  
         }
         if ( req.body.lastName != null ) {
-            detail.lastName = req.body.lastName  
+            detail.lastName = req.body.lastName;  
         }
         if ( req.body.email != null ) {
-            detail.email = req.body.email  
+            detail.email = req.body.email;  
         }
         if ( req.body.password != null ) {
-            detail.password = req.body.password  
+            detail.password = req.body.password;  
         }
         try {
             const updateduser = await detail.save();
@@ -140,11 +146,12 @@ class Registration {
     // user login
     async loginuser (req, res) {
         const { email, password } = req.body;
-        let detail = await Details.findOne({ email, password });
-        // console.log(detail);
+        const hash = bcrypt.hashSync(password.toString(), saltRounds);
+        let detail = await Details.findOne({ email, hash });
         if ( detail != null ) {
             log.info(`${detail.firstName} logged in`);
-            res.send(detail);
+            // res.send(detail);
+            res.json({ message: 'Valid user. User logged in.'});
         }
         else {
             let err = "Invalid user. Access not allowed";
@@ -152,6 +159,45 @@ class Registration {
             return res.status(400).json({ message: err });
         }
     }
+
+    // forget password
+    async forgetPassword (req, res) {
+        const { email } = req.body;
+        console.log('Inside forget passwd')
+        // console.log(email, req.body.email);
+        let detail = await Details.findById(req.params.id);
+        // console.log(detail);
+        if ( detail != null ) {
+            userService.forgetpasswd(detail);
+            res.status(200).json({ message: 'User found' });
+        }
+        else {
+            res.status(400).json({ message: 'User not found' });
+        }  
+    } 
+
+    // reset password
+    async resetPassword (req, res) {
+        const { password } = req.body;
+        // console.log(req.params.id);
+        const user_id = await token.user(req, req.params.id);
+        // console.log(password, req.body.password);
+        if ( user_id == null ) {
+            let err = 'Token not found';
+            log.error(err);
+            res.status(400).json({ message: err });  
+        }
+        else {
+            const hash = await bcrypt.hashSync(req.body.password, saltRounds);
+            let detail = await Details.findById( user_id );
+            // console.log(detail, detail.password, hash);
+            detail.password = hash;
+            const resetpasswd = await detail.save();
+            res.status(201).json({ message: 'User password reset' });
+            log.info('User password reset');
+        }
+            
+    } 
 
 }
 

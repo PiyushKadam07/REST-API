@@ -13,6 +13,10 @@ const noteSchema = mongoose.Schema({
         type : String,
         required :  [true, "color required"]
     },
+    'userid' : {
+        type : String,
+        required :  [true, "Userid required"]
+    },
     'isArchived' : {
         type : Boolean,
         default : false,

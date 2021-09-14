@@ -58,3 +58,395 @@
 2021-09-09T12:39:10.450Z [Hello user!] info: All notes displayed
 2021-09-09T12:41:57.353Z [Hello user!] info: All notes displayed
 2021-09-13T04:15:39.463Z [Hello user!] info: All users displayed
+2021-09-13T04:20:51.984Z [Hello user!] error: Invalid token
+2021-09-13T04:21:09.133Z [Hello user!] info: TOken created
+2021-09-13T04:21:09.174Z [Hello user!] info: Piyush logged in
+2021-09-13T04:21:32.473Z [Hello user!] info: Token authenticated
+2021-09-13T04:21:32.489Z [Hello user!] info: All users displayed
+2021-09-13T04:21:44.503Z [Hello user!] info: Token authenticated
+2021-09-13T04:21:44.513Z [Hello user!] info: User details displayed
+2021-09-13T04:23:14.569Z [Hello user!] info: Token authenticated
+2021-09-13T04:23:14.580Z [Hello user!] info: Note displayed
+2021-09-13T08:23:55.072Z [Hello user!] error: Invalid token
+2021-09-13T08:24:46.730Z [Hello user!] info: TOken created
+2021-09-13T08:24:46.781Z [Hello user!] info: Piyush logged in
+2021-09-13T08:26:43.514Z [Hello user!] info: Token authenticated
+2021-09-13T08:26:43.520Z [Hello user!] info: All users displayed
+2021-09-13T08:33:22.837Z [Hello user!] info: Piyush logged in
+2021-09-13T08:35:11.436Z [Hello user!] info: Piyush logged in
+2021-09-13T08:45:38.407Z [Hello user!] info: TOken created
+2021-09-13T08:45:38.422Z [Hello user!] info: Piyush logged in
+2021-09-13T08:48:43.705Z [Hello user!] info: Token created
+2021-09-13T08:48:43.740Z [Hello user!] info: Piyush logged in
+2021-09-13T08:52:41.246Z [Hello user!] info: Token created
+2021-09-13T08:52:41.292Z [Hello user!] info: Piyush logged in
+2021-09-13T08:53:15.952Z [Hello user!] info: Token created
+2021-09-13T08:53:15.974Z [Hello user!] info: Piyush logged in
+2021-09-13T08:54:20.975Z [Hello user!] info: Token created
+2021-09-13T08:54:20.983Z [Hello user!] info: Piyush logged in
+2021-09-13T08:58:10.682Z [Hello user!] info: Token authenticated
+2021-09-13T08:58:10.747Z [Hello user!] info: All users displayed
+2021-09-13T08:58:38.743Z [Hello user!] info: Token authenticated
+2021-09-13T08:58:38.757Z [Hello user!] info: All notes displayed
+2021-09-13T09:06:24.878Z [Hello user!] info: Token authenticated
+2021-09-13T09:06:24.881Z [Hello user!] error: Title cannot be blank
+2021-09-13T09:06:43.333Z [Hello user!] info: Token authenticated
+2021-09-13T09:06:43.334Z [Hello user!] error: Title cannot be blank
+2021-09-13T09:06:56.014Z [Hello user!] info: Token authenticated
+2021-09-13T09:06:56.014Z [Hello user!] error: Title cannot be blank
+2021-09-13T09:07:50.167Z [Hello user!] info: Token authenticated
+2021-09-13T09:07:50.219Z [Hello user!] info: New note created
+2021-09-13T09:08:57.650Z [Hello user!] info: Token authenticated
+2021-09-13T09:08:57.682Z [Hello user!] info: New note created
+2021-09-13T09:09:23.985Z [Hello user!] info: Token authenticated
+2021-09-13T09:11:40.008Z [Hello user!] info: Token authenticated
+2021-09-13T09:13:57.413Z [Hello user!] info: Token authenticated
+2021-09-13T09:13:57.451Z [Hello user!] info: All notes displayed
+2021-09-13T09:14:38.098Z [Hello user!] info: Token authenticated
+2021-09-13T09:14:38.133Z [Hello user!] info: All notes displayed
+2021-09-13T09:17:17.367Z [Hello user!] info: Token authenticated
+2021-09-13T09:17:17.399Z [Hello user!] info: All notes displayed
+2021-09-13T09:20:36.381Z [Hello user!] info: Token authenticated
+2021-09-13T09:20:36.408Z [Hello user!] info: All notes displayed
+2021-09-13T09:33:55.102Z [Hello user!] info: Token authenticated
+2021-09-13T09:34:48.490Z [Hello user!] info: Token authenticated
+2021-09-13T09:35:25.282Z [Hello user!] info: Token authenticated
+2021-09-13T09:38:08.878Z [Hello user!] info: Token authenticated
+2021-09-13T09:38:08.922Z [Hello user!] info: All notes displayed
+2021-09-13T09:39:46.220Z [Hello user!] info: Token authenticated
+2021-09-13T09:39:46.298Z [Hello user!] info: All notes displayed
+2021-09-13T09:40:08.632Z [Hello user!] info: Token authenticated
+2021-09-13T09:40:08.677Z [Hello user!] info: All notes displayed
+2021-09-13T09:40:46.575Z [Hello user!] info: Token authenticated
+2021-09-13T09:40:46.648Z [Hello user!] info: All notes displayed
+2021-09-13T09:41:33.058Z [Hello user!] info: Token authenticated
+2021-09-13T09:41:33.086Z [Hello user!] info: All notes displayed
+2021-09-13T09:43:37.302Z [Hello user!] info: Token authenticated
+2021-09-13T09:43:37.330Z [Hello user!] info: All notes displayed
+2021-09-13T09:45:41.005Z [Hello user!] info: Token authenticated
+2021-09-13T09:45:41.040Z [Hello user!] info: All notes displayed
+2021-09-13T09:46:59.405Z [Hello user!] info: Token authenticated
+2021-09-13T09:46:59.482Z [Hello user!] info: All notes displayed
+2021-09-13T09:49:11.862Z [Hello user!] info: Token authenticated
+2021-09-13T09:49:11.938Z [Hello user!] info: All notes displayed
+2021-09-13T09:50:09.337Z [Hello user!] info: Token authenticated
+2021-09-13T09:50:09.414Z [Hello user!] info: All notes displayed
+2021-09-13T09:51:28.017Z [Hello user!] info: Token authenticated
+2021-09-13T09:51:28.063Z [Hello user!] info: New note created
+2021-09-13T09:51:44.923Z [Hello user!] info: Token authenticated
+2021-09-13T09:51:44.939Z [Hello user!] info: All notes displayed
+2021-09-13T09:53:45.250Z [Hello user!] info: Token authenticated
+2021-09-13T09:53:45.290Z [Hello user!] info: New note created
+2021-09-13T09:55:05.940Z [Hello user!] info: Token authenticated
+2021-09-13T09:55:05.955Z [Hello user!] info: All notes displayed
+2021-09-13T10:55:53.938Z [Hello user!] info: Token created
+2021-09-13T10:55:53.944Z [Hello user!] info: Piyush logged in
+2021-09-13T10:56:43.075Z [Hello user!] info: Token authenticated
+2021-09-13T10:56:43.088Z [Hello user!] info: All notes displayed
+2021-09-13T10:57:17.437Z [Hello user!] info: Token authenticated
+2021-09-13T10:57:17.511Z [Hello user!] info: All notes displayed
+2021-09-13T10:59:43.901Z [Hello user!] info: Token authenticated
+2021-09-13T11:00:53.490Z [Hello user!] info: Token authenticated
+2021-09-13T11:02:25.775Z [Hello user!] info: Token authenticated
+2021-09-13T11:05:55.869Z [Hello user!] info: Token authenticated
+2021-09-13T11:07:00.966Z [Hello user!] info: Token authenticated
+2021-09-13T11:29:15.303Z [Hello user!] info: Token authenticated
+2021-09-13T11:30:37.227Z [Hello user!] info: Token authenticated
+2021-09-13T11:31:54.574Z [Hello user!] info: Token authenticated
+2021-09-13T11:32:30.437Z [Hello user!] info: Token authenticated
+2021-09-13T11:32:30.624Z [Hello user!] info: All notes displayed
+2021-09-13T11:33:19.903Z [Hello user!] info: Token authenticated
+2021-09-13T11:33:46.552Z [Hello user!] info: Token authenticated
+2021-09-13T11:34:01.433Z [Hello user!] info: Token authenticated
+2021-09-13T11:38:07.349Z [Hello user!] info: Token authenticated
+2021-09-13T11:42:37.633Z [Hello user!] error: No token found
+2021-09-13T11:43:52.677Z [Hello user!] error: No token found
+2021-09-13T11:45:01.531Z [Hello user!] error: No token found
+2021-09-13T11:46:27.311Z [Hello user!] info: Token authenticated
+2021-09-13T11:47:53.699Z [Hello user!] info: Token authenticated
+2021-09-13T11:49:45.985Z [Hello user!] info: Token authenticated
+2021-09-13T11:50:41.313Z [Hello user!] info: Token authenticated
+2021-09-13T11:51:46.667Z [Hello user!] info: Token authenticated
+2021-09-13T11:51:54.344Z [Hello user!] info: Token authenticated
+2021-09-13T11:53:01.526Z [Hello user!] info: Token authenticated
+2021-09-13T12:39:28.860Z [Hello user!] info: Token authenticated
+2021-09-13T12:39:28.922Z [Hello user!] info: All users displayed
+2021-09-13T12:41:15.060Z [Hello user!] info: Token authenticated
+2021-09-13T12:41:23.094Z [Hello user!] info: Token authenticated
+2021-09-13T12:41:33.771Z [Hello user!] info: Token authenticated
+2021-09-13T12:41:33.786Z [Hello user!] info: All users displayed
+2021-09-13T12:42:22.824Z [Hello user!] info: Token authenticated
+2021-09-13T12:42:30.217Z [Hello user!] info: Token authenticated
+2021-09-13T12:43:03.926Z [Hello user!] info: Token authenticated
+2021-09-13T12:43:03.988Z [Hello user!] info: All users displayed
+2021-09-13T12:44:15.694Z [Hello user!] info: Token authenticated
+2021-09-13T12:44:49.979Z [Hello user!] info: Token authenticated
+2021-09-13T12:44:50.019Z [Hello user!] info: User details displayed
+2021-09-13T12:45:07.188Z [Hello user!] info: Token authenticated
+2021-09-13T12:45:07.207Z [Hello user!] info: User details updated
+2021-09-13T12:45:14.737Z [Hello user!] info: Token authenticated
+2021-09-13T12:45:14.745Z [Hello user!] info: All notes displayed
+2021-09-13T12:46:26.940Z [Hello user!] info: Token authenticated
+2021-09-13T12:51:14.151Z [Hello user!] info: Token authenticated
+2021-09-13T12:52:08.557Z [Hello user!] info: Token authenticated
+2021-09-13T12:52:49.439Z [Hello user!] info: Token authenticated
+2021-09-13T12:54:59.652Z [Hello user!] info: Token authenticated
+2021-09-13T12:55:17.960Z [Hello user!] info: Token authenticated
+2021-09-13T12:56:58.715Z [Hello user!] info: Token authenticated
+2021-09-13T12:58:17.226Z [Hello user!] info: Token authenticated
+2021-09-13T12:59:17.139Z [Hello user!] info: Token authenticated
+2021-09-13T13:00:59.824Z [Hello user!] info: Token authenticated
+2021-09-13T13:02:31.533Z [Hello user!] info: Token authenticated
+2021-09-13T13:03:47.438Z [Hello user!] info: Token authenticated
+2021-09-13T13:04:38.501Z [Hello user!] info: Token authenticated
+2021-09-13T13:04:55.831Z [Hello user!] info: Token authenticated
+2021-09-13T13:04:57.949Z [Hello user!] info: Token authenticated
+2021-09-13T13:05:36.576Z [Hello user!] info: Token authenticated
+2021-09-13T13:05:57.779Z [Hello user!] info: Token authenticated
+2021-09-13T13:07:20.735Z [Hello user!] info: Token authenticated
+2021-09-13T13:07:52.804Z [Hello user!] info: Token authenticated
+2021-09-13T13:08:51.223Z [Hello user!] info: Token authenticated
+2021-09-13T13:18:43.568Z [Hello user!] info: Token authenticated
+2021-09-13T13:18:43.575Z [Hello user!] info: All users displayed
+2021-09-13T13:26:41.361Z [Hello user!] info: Token authenticated
+2021-09-13T13:27:57.976Z [Hello user!] info: Token authenticated
+2021-09-13T13:28:21.663Z [Hello user!] info: Token authenticated
+2021-09-13T13:29:40.539Z [Hello user!] info: Token authenticated
+2021-09-13T15:12:12.671Z [Hello user!] info: Token authenticated
+2021-09-13T15:12:12.688Z [Hello user!] info: All users displayed
+2021-09-13T15:13:10.533Z [Hello user!] info: New user registered
+2021-09-13T15:13:18.267Z [Hello user!] info: Token authenticated
+2021-09-13T15:13:18.270Z [Hello user!] info: All users displayed
+2021-09-13T15:14:25.195Z [Hello user!] info: Token authenticated
+2021-09-13T15:14:25.215Z [Hello user!] info: User details deleted
+2021-09-13T15:14:29.425Z [Hello user!] info: New user registered
+2021-09-13T15:16:44.698Z [Hello user!] info: Token authenticated
+2021-09-13T15:16:44.718Z [Hello user!] info: User details deleted
+2021-09-13T15:16:48.745Z [Hello user!] info: New user registered
+2021-09-13T15:16:54.417Z [Hello user!] info: Token authenticated
+2021-09-13T15:16:54.422Z [Hello user!] info: All users displayed
+2021-09-13T15:20:58.228Z [Hello user!] info: Token authenticated
+2021-09-13T15:20:58.247Z [Hello user!] info: User details deleted
+2021-09-13T15:21:46.455Z [Hello user!] info: Token authenticated
+2021-09-13T15:21:46.462Z [Hello user!] info: All users displayed
+2021-09-13T15:22:43.066Z [Hello user!] info: Token authenticated
+2021-09-13T15:22:43.082Z [Hello user!] info: User details deleted
+2021-09-13T15:22:54.464Z [Hello user!] info: New user registered
+2021-09-13T15:23:02.927Z [Hello user!] info: Token authenticated
+2021-09-13T15:23:02.932Z [Hello user!] info: All users displayed
+2021-09-13T15:45:31.873Z [Hello user!] info: Piyush logged in
+2021-09-14T02:55:33.554Z [Hello user!] info: Token authenticated
+2021-09-14T02:55:33.574Z [Hello user!] info: All users displayed
+2021-09-14T02:55:46.715Z [Hello user!] info: Piyush logged in
+2021-09-14T03:04:53.046Z [Hello user!] info: Token authenticated
+2021-09-14T03:04:53.052Z [Hello user!] error: Cast to ObjectId failed for value "alldeletednotes" (type string) at path "_id" for model "Notes"
+2021-09-14T03:05:57.825Z [Hello user!] info: Token authenticated
+2021-09-14T03:05:57.826Z [Hello user!] error: Cast to ObjectId failed for value "alldeletednotes" (type string) at path "_id" for model "Notes"
+2021-09-14T03:16:06.406Z [Hello user!] info: Token authenticated
+2021-09-14T03:16:06.415Z [Hello user!] error: Cast to ObjectId failed for value "alldeletednotes" (type string) at path "_id" for model "Notes"
+2021-09-14T03:17:29.740Z [Hello user!] info: Token authenticated
+2021-09-14T03:17:29.747Z [Hello user!] error: Cast to ObjectId failed for value "alldeletednotes" (type string) at path "_id" for model "Notes"
+2021-09-14T03:18:10.344Z [Hello user!] info: Token authenticated
+2021-09-14T03:18:10.356Z [Hello user!] error: Cast to ObjectId failed for value "alldeletednotes" (type string) at path "_id" for model "Notes"
+2021-09-14T03:18:44.157Z [Hello user!] info: Token authenticated
+2021-09-14T03:18:44.185Z [Hello user!] info: All notes displayed
+2021-09-14T03:36:21.726Z [Hello user!] info: Token authenticated
+2021-09-14T03:36:21.732Z [Hello user!] error: Cast to ObjectId failed for value "alldeletednotes" (type string) at path "_id" for model "Notes"
+2021-09-14T03:46:01.083Z [Hello user!] info: Token authenticated
+2021-09-14T03:46:01.099Z [Hello user!] error: Cast to ObjectId failed for value "alldeletednotes" (type string) at path "_id" for model "Notes"
+2021-09-14T03:47:36.315Z [Hello user!] info: Token authenticated
+2021-09-14T03:47:36.343Z [Hello user!] error: Cast to ObjectId failed for value "alldeletednotes" (type string) at path "_id" for model "Notes"
+2021-09-14T03:47:46.776Z [Hello user!] error: No token found
+2021-09-14T03:48:07.656Z [Hello user!] error: No token found
+2021-09-14T03:51:20.438Z [Hello user!] info: Token authenticated
+2021-09-14T03:52:11.844Z [Hello user!] info: Token authenticated
+2021-09-14T03:52:11.867Z [Hello user!] error: Cast to ObjectId failed for value "alldeletednotes" (type string) at path "_id" for model "Notes"
+2021-09-14T03:52:27.957Z [Hello user!] info: Token authenticated
+2021-09-14T03:52:53.015Z [Hello user!] info: Token authenticated
+2021-09-14T03:58:14.419Z [Hello user!] info: Token authenticated
+2021-09-14T03:59:06.818Z [Hello user!] info: Token authenticated
+2021-09-14T04:01:08.987Z [Hello user!] info: Token authenticated
+2021-09-14T04:01:55.235Z [Hello user!] info: Token authenticated
+2021-09-14T04:02:53.557Z [Hello user!] info: Token authenticated
+2021-09-14T04:03:16.916Z [Hello user!] info: Token authenticated
+2021-09-14T04:03:16.977Z [Hello user!] info: All notes displayed
+2021-09-14T04:26:15.714Z [Hello user!] error: Cannot read property 'save' of null
+2021-09-14T04:26:24.012Z [Hello user!] info: Token authenticated
+2021-09-14T04:26:24.017Z [Hello user!] info: All users displayed
+2021-09-14T04:27:55.438Z [Hello user!] info: Token authenticated
+2021-09-14T04:27:55.475Z [Hello user!] info: User details updated
+2021-09-14T04:28:00.541Z [Hello user!] info: Token authenticated
+2021-09-14T04:28:00.555Z [Hello user!] info: All users displayed
+2021-09-14T04:28:42.826Z [Hello user!] info: Token authenticated
+2021-09-14T04:28:42.843Z [Hello user!] info: User details updated
+2021-09-14T04:28:45.945Z [Hello user!] info: Token authenticated
+2021-09-14T04:28:45.949Z [Hello user!] info: All users displayed
+2021-09-14T04:29:00.123Z [Hello user!] info: Token authenticated
+2021-09-14T04:29:00.127Z [Hello user!] info: All users displayed
+2021-09-14T04:40:24.936Z [Hello user!] info: New user registered
+2021-09-14T07:20:46.714Z [Hello user!] info: Token authenticated
+2021-09-14T07:21:16.463Z [Hello user!] info: Token authenticated
+2021-09-14T07:22:08.163Z [Hello user!] info: Token authenticated
+2021-09-14T07:23:24.888Z [Hello user!] info: Token authenticated
+2021-09-14T07:23:51.749Z [Hello user!] info: Token authenticated
+2021-09-14T07:24:33.942Z [Hello user!] info: Token authenticated
+2021-09-14T07:26:41.602Z [Hello user!] info: Token authenticated
+2021-09-14T07:29:10.526Z [Hello user!] info: Token authenticated
+2021-09-14T07:29:52.392Z [Hello user!] info: Token authenticated
+2021-09-14T07:30:19.592Z [Hello user!] info: Token authenticated
+2021-09-14T07:30:19.626Z [Hello user!] info: All notes displayed
+2021-09-14T07:35:12.797Z [Hello user!] info: Token authenticated
+2021-09-14T07:35:12.864Z [Hello user!] info: All notes displayed
+2021-09-14T07:36:26.988Z [Hello user!] info: Token authenticated
+2021-09-14T07:36:27.007Z [Hello user!] info: All notes displayed
+2021-09-14T07:37:07.315Z [Hello user!] info: Token authenticated
+2021-09-14T07:37:07.326Z [Hello user!] info: Note deleted
+2021-09-14T07:37:16.554Z [Hello user!] info: Token authenticated
+2021-09-14T07:37:16.560Z [Hello user!] info: All notes displayed
+2021-09-14T07:37:36.778Z [Hello user!] info: Token authenticated
+2021-09-14T07:37:36.782Z [Hello user!] info: Note deleted
+2021-09-14T07:37:44.485Z [Hello user!] info: Token authenticated
+2021-09-14T07:37:44.490Z [Hello user!] info: All notes displayed
+2021-09-14T07:37:59.800Z [Hello user!] info: Token authenticated
+2021-09-14T07:37:59.804Z [Hello user!] info: Note deleted
+2021-09-14T07:38:06.853Z [Hello user!] info: Token authenticated
+2021-09-14T07:38:06.865Z [Hello user!] info: All notes displayed
+2021-09-14T07:38:43.116Z [Hello user!] info: Token authenticated
+2021-09-14T07:38:43.120Z [Hello user!] info: Note deleted
+2021-09-14T07:38:49.348Z [Hello user!] info: Token authenticated
+2021-09-14T07:38:49.352Z [Hello user!] info: All notes displayed
+2021-09-14T07:39:11.985Z [Hello user!] info: Token authenticated
+2021-09-14T07:39:11.997Z [Hello user!] info: Note deleted
+2021-09-14T07:39:20.328Z [Hello user!] info: Token authenticated
+2021-09-14T07:39:20.340Z [Hello user!] info: All notes displayed
+2021-09-14T07:39:35.232Z [Hello user!] info: Token authenticated
+2021-09-14T07:39:35.245Z [Hello user!] info: Note deleted
+2021-09-14T07:39:40.621Z [Hello user!] info: Token authenticated
+2021-09-14T07:39:40.631Z [Hello user!] info: All notes displayed
+2021-09-14T07:39:58.229Z [Hello user!] info: Token authenticated
+2021-09-14T07:39:58.239Z [Hello user!] info: Note deleted
+2021-09-14T07:40:05.408Z [Hello user!] info: Token authenticated
+2021-09-14T07:40:05.418Z [Hello user!] info: All notes displayed
+2021-09-14T07:40:26.942Z [Hello user!] info: Token authenticated
+2021-09-14T07:40:26.953Z [Hello user!] info: Note deleted
+2021-09-14T07:40:31.645Z [Hello user!] info: Token authenticated
+2021-09-14T07:40:31.648Z [Hello user!] info: All notes displayed
+2021-09-14T07:40:49.839Z [Hello user!] info: Token authenticated
+2021-09-14T07:40:49.851Z [Hello user!] info: New note created
+2021-09-14T07:40:59.851Z [Hello user!] info: Token authenticated
+2021-09-14T07:40:59.859Z [Hello user!] info: New note created
+2021-09-14T07:41:06.534Z [Hello user!] info: Token authenticated
+2021-09-14T07:41:06.542Z [Hello user!] info: New note created
+2021-09-14T07:41:13.840Z [Hello user!] info: Token authenticated
+2021-09-14T07:41:13.850Z [Hello user!] info: New note created
+2021-09-14T07:41:47.024Z [Hello user!] info: Token authenticated
+2021-09-14T07:41:47.034Z [Hello user!] info: Note deleted
+2021-09-14T07:42:09.522Z [Hello user!] info: Token authenticated
+2021-09-14T07:42:09.532Z [Hello user!] info: All notes displayed
+2021-09-14T07:42:48.396Z [Hello user!] info: Token authenticated
+2021-09-14T07:42:48.413Z [Hello user!] info: Note archived
+2021-09-14T07:43:01.186Z [Hello user!] info: Token authenticated
+2021-09-14T07:43:01.189Z [Hello user!] info: All notes displayed
+2021-09-14T07:43:22.792Z [Hello user!] info: Token authenticated
+2021-09-14T07:43:22.802Z [Hello user!] info: Note deleted
+2021-09-14T07:43:27.355Z [Hello user!] info: Token authenticated
+2021-09-14T07:43:27.358Z [Hello user!] info: All notes displayed
+2021-09-14T07:45:09.526Z [Hello user!] info: Token authenticated
+2021-09-14T07:45:09.536Z [Hello user!] error: Cannot read property 'save' of null
+2021-09-14T07:45:25.990Z [Hello user!] info: Token authenticated
+2021-09-14T07:45:26.004Z [Hello user!] info: New note created
+2021-09-14T07:45:32.730Z [Hello user!] info: Token authenticated
+2021-09-14T07:45:32.733Z [Hello user!] info: New note created
+2021-09-14T07:45:46.744Z [Hello user!] info: Token authenticated
+2021-09-14T07:45:46.752Z [Hello user!] info: Note deleted
+2021-09-14T07:45:55.495Z [Hello user!] info: Token authenticated
+2021-09-14T07:45:55.500Z [Hello user!] info: All notes displayed
+2021-09-14T07:46:29.569Z [Hello user!] info: Token authenticated
+2021-09-14T07:46:29.574Z [Hello user!] info: Note archived
+2021-09-14T07:46:31.565Z [Hello user!] info: Token authenticated
+2021-09-14T07:46:31.569Z [Hello user!] info: Note deleted
+2021-09-14T07:47:08.260Z [Hello user!] info: Token authenticated
+2021-09-14T07:51:19.741Z [Hello user!] info: Token authenticated
+2021-09-14T07:52:06.922Z [Hello user!] info: Token authenticated
+2021-09-14T08:03:52.423Z [Hello user!] info: Token authenticated
+2021-09-14T08:04:43.534Z [Hello user!] info: Token authenticated
+2021-09-14T08:13:02.133Z [Hello user!] info: Token authenticated
+2021-09-14T09:34:39.741Z [Hello user!] info: Token authenticated
+2021-09-14T09:34:39.766Z [Hello user!] info: All users displayed
+2021-09-14T09:46:08.100Z [Hello user!] info: Token authenticated
+2021-09-14T09:46:08.126Z [Hello user!] info: All users displayed
+2021-09-14T09:47:09.513Z [Hello user!] info: Token authenticated
+2021-09-14T09:47:09.521Z [Hello user!] info: User details deleted
+2021-09-14T09:47:13.849Z [Hello user!] info: Token authenticated
+2021-09-14T09:47:13.852Z [Hello user!] info: All users displayed
+2021-09-14T09:47:29.385Z [Hello user!] info: Token authenticated
+2021-09-14T09:47:29.388Z [Hello user!] info: User details deleted
+2021-09-14T09:47:32.467Z [Hello user!] info: Token authenticated
+2021-09-14T09:47:32.470Z [Hello user!] info: All users displayed
+2021-09-14T09:47:48.385Z [Hello user!] info: Token authenticated
+2021-09-14T09:47:48.388Z [Hello user!] info: User details deleted
+2021-09-14T09:47:51.503Z [Hello user!] info: Token authenticated
+2021-09-14T09:47:51.506Z [Hello user!] info: All users displayed
+2021-09-14T09:48:07.398Z [Hello user!] info: Token authenticated
+2021-09-14T09:48:07.405Z [Hello user!] info: User details deleted
+2021-09-14T09:48:09.817Z [Hello user!] info: Token authenticated
+2021-09-14T09:48:09.819Z [Hello user!] info: All users displayed
+2021-09-14T09:48:35.359Z [Hello user!] info: Token authenticated
+2021-09-14T09:48:35.369Z [Hello user!] info: User details deleted
+2021-09-14T09:48:38.754Z [Hello user!] info: Token authenticated
+2021-09-14T09:48:38.758Z [Hello user!] info: All users displayed
+2021-09-14T09:49:32.265Z [Hello user!] info: Token authenticated
+2021-09-14T09:49:32.273Z [Hello user!] info: All users displayed
+2021-09-14T09:52:47.264Z [Hello user!] info: Token authenticated
+2021-09-14T09:52:47.266Z [Hello user!] info: All users displayed
+2021-09-14T09:53:29.258Z [Hello user!] info: New user registered
+2021-09-14T09:53:32.611Z [Hello user!] info: Token authenticated
+2021-09-14T09:53:32.613Z [Hello user!] info: All users displayed
+2021-09-14T09:55:09.712Z [Hello user!] info: Token authenticated
+2021-09-14T09:55:09.720Z [Hello user!] info: User details updated
+2021-09-14T09:55:13.148Z [Hello user!] info: Token authenticated
+2021-09-14T09:55:13.151Z [Hello user!] info: All users displayed
+2021-09-14T09:57:50.762Z [Hello user!] info: Token authenticated
+2021-09-14T09:57:50.770Z [Hello user!] info: All users displayed
+2021-09-14T10:14:51.012Z [Hello user!] info: Token authenticated
+2021-09-14T10:15:53.605Z [Hello user!] info: Token authenticated
+2021-09-14T10:15:57.560Z [Hello user!] info: Token authenticated
+2021-09-14T10:20:31.057Z [Hello user!] info: Token authenticated
+2021-09-14T10:22:20.712Z [Hello user!] info: Token authenticated
+2021-09-14T10:22:54.347Z [Hello user!] info: Token authenticated
+2021-09-14T10:55:39.773Z [Hello user!] info: Token authenticated
+2021-09-14T10:56:35.903Z [Hello user!] info: Token authenticated
+2021-09-14T10:58:30.741Z [Hello user!] info: Token authenticated
+2021-09-14T10:58:59.128Z [Hello user!] info: Token authenticated
+2021-09-14T10:59:04.472Z [Hello user!] info: Token authenticated
+2021-09-14T10:59:14.214Z [Hello user!] info: Token authenticated
+2021-09-14T10:59:14.245Z [Hello user!] info: All notes displayed
+2021-09-14T10:59:36.615Z [Hello user!] info: Token authenticated
+2021-09-14T10:59:38.878Z [Hello user!] info: Token authenticated
+2021-09-14T11:00:56.702Z [Hello user!] info: Token authenticated
+2021-09-14T11:00:56.763Z [Hello user!] info: All users displayed
+2021-09-14T11:17:05.828Z [Hello user!] info: User password reset
+2021-09-14T11:19:32.059Z [Hello user!] info: Token authenticated
+2021-09-14T11:19:32.085Z [Hello user!] info: All users displayed
+2021-09-14T11:19:56.551Z [Hello user!] info: Token authenticated
+2021-09-14T11:19:58.949Z [Hello user!] info: Token authenticated
+2021-09-14T11:20:00.892Z [Hello user!] info: Token authenticated
+2021-09-14T11:21:03.209Z [Hello user!] info: Token authenticated
+2021-09-14T11:21:03.223Z [Hello user!] info: All notes displayed
+2021-09-14T11:31:49.802Z [Hello user!] info: Token authenticated
+2021-09-14T11:31:49.806Z [Hello user!] info: All notes displayed
+2021-09-14T11:32:00.661Z [Hello user!] info: Token authenticated
+2021-09-14T11:36:47.434Z [Hello user!] info: Token authenticated
+2021-09-14T11:36:56.959Z [Hello user!] error: No token found
+2021-09-14T11:37:04.230Z [Hello user!] info: Token authenticated
+2021-09-14T11:38:15.483Z [Hello user!] info: Token authenticated
+2021-09-14T11:38:19.176Z [Hello user!] info: Token authenticated
+2021-09-14T11:39:19.522Z [Hello user!] info: Token authenticated
+2021-09-14T11:39:23.469Z [Hello user!] info: Token authenticated
+2021-09-14T11:40:21.234Z [Hello user!] info: Token authenticated
+2021-09-14T11:40:24.937Z [Hello user!] info: Token authenticated
+2021-09-14T11:40:54.921Z [Hello user!] info: Token authenticated
+2021-09-14T11:40:54.932Z [Hello user!] info: All notes displayed
+2021-09-14T11:41:35.884Z [Hello user!] info: Token authenticated
+2021-09-14T11:41:35.889Z [Hello user!] info: All users displayed
+2021-09-14T11:42:34.212Z [Hello user!] info: Piyush logged in

@@ -13,3 +13,25 @@
 2021-09-09T12:22:53.577Z [Hello user!] error: Cast to ObjectId failed for value "{_id}" (type string) at path "_id" for model "Details"
 2021-09-09T12:22:57.938Z [Hello user!] error: Cast to ObjectId failed for value "{_id}" (type string) at path "_id" for model "Details"
 2021-09-09T12:28:44.265Z [Hello user!] error: Cannot read property 'remove' of null
+2021-09-13T04:20:51.984Z [Hello user!] error: Invalid token
+2021-09-13T08:23:55.072Z [Hello user!] error: Invalid token
+2021-09-13T09:06:24.881Z [Hello user!] error: Title cannot be blank
+2021-09-13T09:06:43.334Z [Hello user!] error: Title cannot be blank
+2021-09-13T09:06:56.014Z [Hello user!] error: Title cannot be blank
+2021-09-13T11:42:37.633Z [Hello user!] error: No token found
+2021-09-13T11:43:52.677Z [Hello user!] error: No token found
+2021-09-13T11:45:01.531Z [Hello user!] error: No token found
+2021-09-14T03:04:53.052Z [Hello user!] error: Cast to ObjectId failed for value "alldeletednotes" (type string) at path "_id" for model "Notes"
+2021-09-14T03:05:57.826Z [Hello user!] error: Cast to ObjectId failed for value "alldeletednotes" (type string) at path "_id" for model "Notes"
+2021-09-14T03:16:06.415Z [Hello user!] error: Cast to ObjectId failed for value "alldeletednotes" (type string) at path "_id" for model "Notes"
+2021-09-14T03:17:29.747Z [Hello user!] error: Cast to ObjectId failed for value "alldeletednotes" (type string) at path "_id" for model "Notes"
+2021-09-14T03:18:10.356Z [Hello user!] error: Cast to ObjectId failed for value "alldeletednotes" (type string) at path "_id" for model "Notes"
+2021-09-14T03:36:21.732Z [Hello user!] error: Cast to ObjectId failed for value "alldeletednotes" (type string) at path "_id" for model "Notes"
+2021-09-14T03:46:01.099Z [Hello user!] error: Cast to ObjectId failed for value "alldeletednotes" (type string) at path "_id" for model "Notes"
+2021-09-14T03:47:36.343Z [Hello user!] error: Cast to ObjectId failed for value "alldeletednotes" (type string) at path "_id" for model "Notes"
+2021-09-14T03:47:46.776Z [Hello user!] error: No token found
+2021-09-14T03:48:07.656Z [Hello user!] error: No token found
+2021-09-14T03:52:11.867Z [Hello user!] error: Cast to ObjectId failed for value "alldeletednotes" (type string) at path "_id" for model "Notes"
+2021-09-14T04:26:15.714Z [Hello user!] error: Cannot read property 'save' of null
+2021-09-14T07:45:09.536Z [Hello user!] error: Cannot read property 'save' of null
+2021-09-14T11:36:56.959Z [Hello user!] error: No token found
