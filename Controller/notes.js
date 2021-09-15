@@ -111,7 +111,7 @@ class notes {
         const user_id = await token.userid(req);
         // console.log(user_id);
         let note = await Notes.find( {"userid" : user_id, "isDeleted": true} );
-        console.log(note);
+        // console.log(note);
         res.json(note);
     }
 
@@ -135,9 +135,9 @@ class notes {
     async getarchivednotes (req, res) {
         console.log('Inside archive note')
         const user_id = await token.userid(req);
-        console.log(user_id,typeof(user_id));
+        // console.log(user_id,typeof(user_id));
         let note = await Notes.find({ "userid" : user_id, "isArchived": true });
-        console.log(note);
+        // console.log(note);
         res.json(note);
     }
 

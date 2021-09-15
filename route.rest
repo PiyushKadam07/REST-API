@@ -113,6 +113,14 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjE0M
 
 ###
 GET http://localhost:3000/notes/alldeletednotes 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjEzZWNhNTAxNjI1NjYyYmIzODQwYzMwIiwiaWF0IjoxNjMxNjEzNTU1fQ.fB82w94tI-igR5fwIUGcr8q_AP6qwJRbUwWiX9xbIMg
+
+###
+GET http://localhost:3000/notes/allarchivednotes
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjEzZWNhNTAxNjI1NjYyYmIzODQwYzMwIiwiaWF0IjoxNjMxNjEzNTU1fQ.fB82w94tI-igR5fwIUGcr8q_AP6qwJRbUwWiX9xbIMg
+
+###
+GET http://localhost:3000/notes/alldeletednotes 
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjE0MDI3YjgzNmI4NTYzZjFlYzQ2Y2FkIiwiaWF0IjoxNjMxNjEzNTU1fQ.-vcGkA4P8zk_0N5oa4eYF-w_km68iYgK1n1rfjmbprY
 
 ###
